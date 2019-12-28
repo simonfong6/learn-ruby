@@ -36,7 +36,7 @@ def parse_headers(request)
 
 end
 
-SERVER_ROOT = "/tmp/web-server/"
+SERVER_ROOT = "static/"
 
 def prepare_response(request)
   if request.fetch(:path) == "/"
